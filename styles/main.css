@@ -1,119 +1,134 @@
 :root {
-    --Pink: hsl(322, 100%, 66%);
-    --Light-Pink: hsl(321, 100%, 78%);
-    --Light-Red: hsl(0, 100%, 63%);
-    --Very-Dark-Cyan: hsl(192, 100%, 9%);
-    --Very-Pale-Blue: hsl(207, 100%, 98%);
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding: 20px;
-    margin: 0 auto;
-    text-align: center;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo img {
-    width: 120px;
+  width: 120px;
 }
 
 header button {
-    background-color: white;
-    border-radius: 20px;
-    padding: 7px 20px;
-    border: solid 1px var(--Pink);
-    color: var(--Pink);
+  background-color: white;
+  border-radius: 20px;
+  padding: 7px 20px;
+  border: solid 1px var(--Pink);
+  color: var(--Pink);
 }
 main {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .get-started h1 {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
 }
 .get-started p {
-    margin-bottom: 40px;
-    padding: 0 15px;
+  margin-bottom: 40px;
+  padding: 0 15px;
 }
 .get-started button {
-    padding: 10px 40px;
-    background-color: var(--Pink);
-    color: white;
-    border: solid 1px var(--Pink);
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 100px;
+  padding: 10px 40px;
+  background-color: var(--Pink);
+  color: white;
+  border: solid 1px var(--Pink);
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 100px;
 }
 .start-for-free button {
-    padding: 10px 40px;
-    background-color: var(--Pink);
-    color: white;
-    border: solid 1px var(--Pink);
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 40px;
-    margin-bottom: 200px;
+  padding: 10px 40px;
+  background-color: var(--Pink);
+  color: white;
+  border: solid 1px var(--Pink);
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 200px;
 }
 
 .principal-image img {
-    width: 90%;
+  width: 90%;
 }
 .stats {
-    margin-top: 100px;
+  margin-top: 100px;
 }
-.stats-communities, .stats-messages {
-    margin-bottom: 100px;
+.stats-communities {
+  margin-bottom: 100px;
 }
 .stats-communities img {
-    width: 30px;
-    display: block;
-    margin: 0 100px;
+  width: 30px;
+  display: block;
+  margin: 0 100px;
 }
 .stats-communities p:nth-of-type(1) {
-    
-    font-weight: 700;
-    font-size: 70px;
+  font-weight: 700;
+  font-size: 70px;
 }
 .stats-communities p:nth-of-type(2) {
-    color: rgba(0,0,0,0.4);
-    font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
 }
 .stats-messages img {
-    width: 30px;
-    display: block;
-    margin: 0 90px;
+  width: 30px;
+  display: block;
+  margin: 0 90px;
 }
 .stats-messages p:nth-of-type(1) {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
 }
 .stats-messages p:nth-of-type(2) {
-    color: rgba(0,0,0,0.4);
-    font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
 }
 
+.feature-article {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .feature-article img {
-    width: 90%;
+  width: 80%;
+  margin-bottom: 90px;
 }
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.feature-description h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.feature-description p {
+    padding: 0 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
