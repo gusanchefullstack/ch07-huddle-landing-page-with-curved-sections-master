@@ -15,7 +15,7 @@
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
-  padding: 20px;
+  padding-top: 40px;
   margin: 0 auto;
   text-align: center;
 }
@@ -24,6 +24,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .logo img {
@@ -39,6 +41,8 @@ header button {
 }
 main {
   margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .get-started h1 {
   text-align: center;
@@ -119,13 +123,81 @@ main {
   margin-bottom: 90px;
 }
 .feature-description h3 {
-    font-size: 22px;
-    margin-bottom: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 .feature-description p {
-    padding: 0 10px;
+  padding: 0 10px;
+}
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  color: white;
+  padding: 25px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.huddle-contact {
+  order: 1;
+  margin-top: 100px;
+}
+.huddle-newsletter {
+  order: 0;
+}
+.huddle-contact .logo {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.huddle-contact p {
+  text-align: left;
+}
+.huddle-contact ul {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.huddle-contact ul li {
+  line-height: 40px;
+}
+.huddle-contact ul li img {
+  margin-right: 15px;
+}
+.huddle-newsletter h3 {
+  text-align: left;
+  margin: 20px 0;
+}
+.huddle-newsletter p {
+  text-align: left;
+  font-size: 16px;
+  padding: 0 20px 0 0;
+  margin-bottom: 30px;
+}
+.huddle-newsletter input[type="text"] {
+  padding: 13px;
+  width: 100%;
+  border-radius: 10px;
+}
+.huddle-newsletter input[type="submit"] {
+  padding: 13px;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--Pink);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 15px 0;
+  border: solid 1px var(--Pink);
+}
+.huddle-newsletter form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .attribution {
+  margin-top: 20px;
   font-size: 11px;
   text-align: center;
 }
