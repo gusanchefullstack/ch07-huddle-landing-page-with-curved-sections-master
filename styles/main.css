@@ -149,6 +149,9 @@ footer {
   margin-bottom: 20px;
   text-align: left;
 }
+.huddle-contact .logo img{
+  width: 50%;
+}
 .huddle-contact p {
   text-align: left;
 }
@@ -164,6 +167,13 @@ footer {
 .huddle-contact ul li img {
   margin-right: 15px;
 }
+.social-icons {
+  text-align: left;
+}
+.social-icons i {
+  margin-right: 12px;
+  font-size: 25px;
+}
 .huddle-newsletter h3 {
   text-align: left;
   margin: 20px 0;
@@ -173,6 +183,7 @@ footer {
   font-size: 16px;
   padding: 0 20px 0 0;
   margin-bottom: 30px;
+  line-height: 25px;
 }
 .huddle-newsletter input[type="text"] {
   padding: 13px;
