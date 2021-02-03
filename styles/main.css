@@ -41,8 +41,13 @@ header button {
 }
 main {
   margin: 0 auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  background-image: url("../images/bg-footer-top-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+  background-position-x: 0;
 }
 .get-started h1 {
   text-align: center;
@@ -64,6 +69,9 @@ main {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 100px;
+}
+.start-for-free{
+  border-bottom: 1px solid var(--Very-Dark-Cyan);
 }
 .start-for-free button {
   padding: 10px 40px;
@@ -118,6 +126,9 @@ main {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.feature-article:nth-of-type(2n-1) {
+  background-color: var(--Very-Pale-Blue);
+}
 .feature-article img {
   width: 80%;
   margin-bottom: 90px;
@@ -149,8 +160,8 @@ footer {
   margin-bottom: 20px;
   text-align: left;
 }
-.huddle-contact .logo img{
-  width: 50%;
+.huddle-contact .logo img {
+  width: 60%;
 }
 .huddle-contact p {
   text-align: left;
@@ -169,6 +180,7 @@ footer {
 }
 .social-icons {
   text-align: left;
+  margin-top: 40px;
 }
 .social-icons i {
   margin-right: 12px;
@@ -198,7 +210,7 @@ footer {
   background-color: var(--Pink);
   color: white;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   margin: 15px 0;
   border: solid 1px var(--Pink);
 }
